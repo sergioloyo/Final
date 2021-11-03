@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Games</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body class="grey darken-4">
+
+        <nav>
+            <div class="nav-wrapper  grey darken-3">
+                <a href="#" class="brand-logo center">Inicio</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container section">
+
+            <a href="#" class="btn-floating pulse sidenav-trigger grey darken-2" data-target="menu-side">
+                <i class="medium material-icons">menu</i>
+            </a>
+
+            <ul class="sidenav grey darken-4" id="menu-side">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="Imagenes/s3.jpg" alt="">
+                        </div>
+                        <a href="#">
+                            <img src="Imagenes/s1.png" alt="" class="circle">
+                        </a>
+                        <a href="">
+                            <span class="name white-text">Administrador</span>
+                        </a>
+                        <a href="">
+                            <span class="email white-text">admi123@gmail.com</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a class="white-text" href="index.html">
+                        <i class="white-text material-icons">looks_one</i>
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a class="white-text" href="ingresarCliente.jsp">
+                        <i class="white-text material-icons">face</i>
+                        Ingreso de usuarios
+                    </a>
+                </li>
+                <li>
+                    <a class="white-text" href="ingresoVideojuego.jsp">
+                        <i class="white-text red-text material-icons">videogame_asset </i>
+                        Ingreso de videojuego
+                    </a>
+                </li>
+                <li>
+                <li>
+                    <a class="white-text" href="Extension.jsp">
+                        <i class="white-text material-icons">av_timer</i>
+                        Extension de tiempo
+                    </a>
+                </li>
+                <li>
+                <li>
+                    <a class="white-text" href="prestamoVideojuego.jsp">
+                        <i class="white-text material-icons">child_care</i>
+                        Prestamo de videojuego
+                    </a>
+                </li>
+
+                <li>
+                    <a class="white-text" href="devolucion.jsp">
+                        <i class="white-text material-icons">games</i>
+                        Devolucion de videojuego
+                    </a>
+                </li>
+
+                <li>
+                    <div class="divider grey darken-3"></div>
+                </li>
+
+                <li>
+                    <a class="white-text" href="reportes.jsp">
+                        <i class="white-text material-icons">cloud</i>
+                        Reportes
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container section">
+    <div class="row">
+        <div class="col s12">
+
+            <div class="slider">
+                <ul class="slides">
+
+                    <li>
+                        <img src="Imagenes/s1.jpg" alt="">
+                        <div class="caption center-align">
+                            <h3>Bienvenido.</h3>
+                            <h5 class="light">Para acceder a todas las opciones has click en la esquina superior
+                                izquierda.</h5>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="Imagenes/s2.png" alt="">
+                        <div class="caption right-align"></div>
+                    </li>
+
+
+                    <li>
+                        <img src="Imagenes/s4.jpeg" alt="">
+                        <div class="caption left-align ">
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col s6">
+            <div class="section">
+
+                <img src="s5.jpg" alt="" class="materialboxed responsive-img">
+
+            </div>
+        </div>
+
+        <div class="col s6">
+            <div class="section">
+                <img src="s6.jpg" alt="" class="materialboxed responsive-img" data-caption="Tienda en Guatemala">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {
+        });
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+</script>
+
+
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Proyecto Final</h5>
+                <p class="grey-text text-lighten-4"></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Integrantes</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Sergio Ivan</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Alejandro Jolon</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright 
+            <a class="grey-text text-lighten-4 right" href="report1.jrxml">Universidad Mariano Gálvez de Guatemala</a>
+             
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
